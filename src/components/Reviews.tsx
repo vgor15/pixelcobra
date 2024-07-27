@@ -4,7 +4,7 @@ import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 import MaxWidthWrapper from './MaxWidthWrapper'
 import { useInView } from 'framer-motion'
 import { cn } from '@/lib/utils'
-import Phone from './phone'
+import Phone from './Phone'
 
 const PHONES = [
   '/testimonials/1.jpg',

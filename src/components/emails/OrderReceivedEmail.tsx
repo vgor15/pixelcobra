@@ -26,7 +26,7 @@ const OrderReceivedEmail = ({
   const baseUrl =
     process.env.NODE_ENV === 'development'
       ? 'http://localhost:3000'
-      : 'https://casecobra.vercel.app'
+      : 'https://cobracase-tan.vercel.app'
 
   return (
     <Html>
@@ -200,6 +200,6 @@ const footer = {
     margin: '0',
     color: '#AFAFAF',
     fontSize: '13px',
-    textAlign: 'center',
+    textAlign: 'center', 
   } as React.CSSProperties,
 }

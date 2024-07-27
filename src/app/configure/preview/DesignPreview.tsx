@@ -1,6 +1,6 @@
 'use client'
 
-import Phone from '@/components/phone'
+import Phone from '@/components/Phone'
 import { Button } from '@/components/ui/button'
 import { BASE_PRICE, PRODUCT_PRICES } from '@/config/products'
 import { cn, formatPrice } from '@/lib/utils'
